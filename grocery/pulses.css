@@ -1,0 +1,46 @@
+.list-2.active{
+ position:fixed;
+ top:0;left:0;right:0;
+
+}
+
+.list-2 .icons a{
+  font-size:2.3rem;
+  color:black;
+  position:absolute; 
+  left:1180px;
+  top:2px;
+}  
+
+.list-2 .icons a:hover{
+ color:green;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:760px)
+{ 
+  .list-2
+{
+position:relative;}
+
+.list-2 .icons a{
+  font-size:2.3rem;
+  color:black;
+  position:absolute; 
+  left:400px;
+  top:2px;
+  
+}  
+   
+ 
+}
